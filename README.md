@@ -28,13 +28,22 @@ This project is a simple reservation system built on Ethereum blockchain. It inc
 
 #### Terminal 1
 
-Run the Hardhat node.
+
 
 ```bash
-npx hardhat node
+npm i
 ```
 
 #### Terminal 2
+
+Run the Hardhat node.
+
+```bash
+npx hardhat compile
+npx hardhat node
+```
+
+#### Terminal 3
 
 Deploy the smart contract.
 
@@ -42,7 +51,7 @@ Deploy the smart contract.
 npx hardhat run --network localhost scripts/deploy.js
 ```
 
-#### Terminal 3
+#### Terminal 4
 
 Run the Next.js development server.
 
