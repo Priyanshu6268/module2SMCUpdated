@@ -51,9 +51,9 @@ Deploy the smart contract.
 npx hardhat run --network localhost scripts/deploy.js
 ```
 
-#### Terminal 4
+#### Terminal 1
 
-Run the Next.js development server.
+Go to terminal 1 again and Run the Next.js development server.
 
 ```bash
 npm run dev
